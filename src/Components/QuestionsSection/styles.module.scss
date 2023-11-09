@@ -1,0 +1,45 @@
+@import "../../Assets/styles/vars.scss";
+
+.root {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  align-items: flex-start;
+  margin: 0 auto;
+  height: 100dvh;
+  position: relative;
+  & h2 {
+    font-size: $fs2;
+    max-width: 50%;
+  }
+  & ul {
+    width: 50%;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url("../../Assets/Images/secondPhone.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    left: -300px;
+    top: 13vh;
+    width: 100vw;
+    height: 822.395px;
+    flex-shrink: 0;
+  }
+  &::before {
+    z-index: -1;
+    content: "";
+    width: 35vw;
+    height: 40vh;
+    flex-shrink: 0;
+    position: absolute;
+    left: 3vw;
+    top: 27vh;
+    border-radius: 90vh;
+    background: #0075ff;
+    filter: blur(106.5px);
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../Assets/styles/vars.scss";
+
+.btn {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: $fs4;
+  border-radius: 12px;
+  background-color: #2055e5;
+  max-width: fit-content;
+}

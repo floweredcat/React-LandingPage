@@ -1,0 +1,56 @@
+@import "../../Assets/styles/vars.scss";
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100dvh;
+  position: relative;
+  &::after {
+    content: "";
+    width: 206.309px;
+    height: 90vh;
+    flex-shrink: 0;
+    position: absolute;
+    left: -300px;
+    top: 5vh;
+    border-radius: 90vh;
+    background: #0075ff;
+    filter: blur(106.5px);
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    width: 206.309px;
+    height: 90vh;
+    flex-shrink: 0;
+    z-index: -1;
+    right: -300px;
+    top: 5vh;
+    border-radius: 90vh;
+    background: #dd6400;
+    filter: blur(106.5px);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  & h1 {
+    font-size: $fs1;
+    font-weight: $fw1;
+    max-width: 700px;
+  }
+  & p {
+    font-size: $fs4;
+    max-width: 500px;
+  }
+}
+
+.phone {
+  height: 568px;
+}
