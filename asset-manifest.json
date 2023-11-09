@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-LandingPage/static/css/main.c565f1aa.css",
+    "main.css": "/React-LandingPage/static/css/main.f46ba030.css",
     "main.js": "/React-LandingPage/static/js/main.f8d75c00.js",
     "static/js/787.0f8d78ff.chunk.js": "/React-LandingPage/static/js/787.0f8d78ff.chunk.js",
     "static/media/secondPhone.png": "/React-LandingPage/static/media/secondPhone.22000e3c1fe3407af1e7.png",
@@ -9,12 +9,12 @@
     "static/media/mainPhone.png": "/React-LandingPage/static/media/mainPhone.7e9d7a7e7bea0daccd06.png",
     "index.html": "/React-LandingPage/index.html",
     "static/media/DDIcon.svg": "/React-LandingPage/static/media/DDIcon.0d53a6c51e9394d3806e17ccf25ef54c.svg",
-    "main.c565f1aa.css.map": "/React-LandingPage/static/css/main.c565f1aa.css.map",
+    "main.f46ba030.css.map": "/React-LandingPage/static/css/main.f46ba030.css.map",
     "main.f8d75c00.js.map": "/React-LandingPage/static/js/main.f8d75c00.js.map",
     "787.0f8d78ff.chunk.js.map": "/React-LandingPage/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c565f1aa.css",
+    "static/css/main.f46ba030.css",
     "static/js/main.f8d75c00.js"
   ]
 }
